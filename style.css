@@ -1,0 +1,225 @@
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+} 
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+  body   {
+      background-color: #63DA84;
+      font-family: 'Quicksand';
+    }
+
+  .wrapper {
+      text-align: center;
+      margin-bottom: 25px;
+  }
+
+  a {
+      color: #fff;
+      text-decoration: none;
+  }
+
+  .container {
+     background-color: white;
+     width: 33.33%;
+     padding: 30px 10px;
+     margin: 0 auto 25px; 
+     border-radius: 3px;
+     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.12);
+ } 
+  .form {
+      margin-top: -15px;
+  }
+ .checkbox {
+    margin-left: 10%;
+    padding-left: 0;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 13px;
+ }
+
+ .footer {
+    margin-left: 10%;
+    padding-left: 0;
+    margin-bottom: 30px;
+    color: #000;
+    font-size: 14px;
+ }
+ .box {
+     color: #f3f3f3;
+     border: 1px solid #e5e5e5;
+     border-radius: 4px;
+ }
+  .header {
+    text-align: center;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000;
+    margin: 20px 0 50px 0;
+} 
+
+  .mail,
+  .password {
+    border: 1px solid #e5e5e5;
+    width: 80%;
+    padding: 25px 20px;
+    margin: 0 10% 20px;
+    border-radius: 4px;
+  }
+  .button {
+      background-color: #63DA84;
+      color: white;
+      font-size: 20px;
+      font-weight: 100;
+      width: 80%;
+      margin: 20px 10% 20px;
+      padding: 20px 0;
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+  }
+  .sign-up {
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    margin: 10px 0 170px 0;  
+}
+ .end {
+     font-size: 14px;
+     line-height: 18px; 
+     text-align: justify;
+     margin: 35px 10% 20px;
+ }
+
+ .end a {
+     color: green;
+ }
+
+ .top {
+    text-align: center;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000;
+    margin: 35px 0 45px;
+  }
+
+  .link {
+      font-size: 17px;
+      line-height: 21px;
+      text-align: left;
+      color: #066d22;
+      margin: 30px 10%;
+  }
+
+  .clearfix a,
+  .footer a,
+  .end a {
+      color: #63da84;
+  }
+
+  .clearfix {
+      font-size: 17px;
+      line-height: 21px;
+      text-align: left;
+      margin: 45px 10%;
+  }
+  
+  .signup {
+      float: right;  
+  }
+
+  .login {
+      float: left
+  }
+  .newpassword {
+    text-align: center;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000;
+    margin: 60px 0 20px;
+  }
+
+/****************************************
+          MEDIA QUERIES
+*****************************************/
+
+/* For Smaller Screen Size */
+
+@media (max-width: 330px) {
+
+.container {
+  width: 80%;
+  padding: 30px 0;
+  margin: 5px auto; 
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.12);
+} 
+.checkbox {
+  margin-left: 10px;
+  padding-left: 0;
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 8px;
+}
+.header {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  color: #000;
+  margin: 20px 0 50px;
+} 
+.mail,
+.password {
+  border: 1px solid #e5e5e5;
+  width: 90%;
+  padding: 10px;
+  margin: 0 5% 20px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+.button {
+    font-size: 14px;
+    width: 90%;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 20px 5%;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.footer,
+.end {
+    margin-left: 15px;
+    font-size: 12px;
+ }
+.sign-up {
+  font-size: 12px;
+  margin: 10px 0 50px;  
+}
+
+.link {
+    font-size: 13px;
+    margin: 20px 5%;
+}
+.newpassword {
+  font-size: 12px;
+  margin: 0 0 30px;
+}
+        
+}
